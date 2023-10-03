@@ -25,8 +25,8 @@ function App() {
 
   return (
     <Context.Provider value={data}>
-      {bets.length > 0 && <Table />}
       {basket.length > 0 && <Basket />}
+      {bets.length > 0 && <Table />}
     </Context.Provider>
   );
 }
